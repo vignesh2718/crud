@@ -1,0 +1,87 @@
+body > table{
+    width: 50%;
+    margin: auto;
+    margin-left: auto;
+    margin-top: 3%;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:50%;
+}
+
+td, th {
+    border: 1px solid grey;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    /* color: whitesmoke; */
+    /* background-color: black; */
+}
+
+input[type=text],input[type=mail],input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 30%;
+    background-color: black;
+    color:whitesmoke;
+    padding: 14px 20px;
+    margin: 8px 0;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+.controls{
+    border: 1px solid white;
+    background: lightskyblue;
+    font-size: 19px;
+    text-decoration: none;
+    padding: 2px 13px;
+    border-radius: 16px;
+    font-weight: 600;
+    display: inline-block;
+
+}
+.edit{
+    background: lightgreen;
+    color:green;
+}
+.delete{
+    background: rgb(237, 165, 165);
+    color:red;
+
+}
